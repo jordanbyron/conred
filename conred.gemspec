@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Comrades are for reusable code}
   gem.homepage      = "http://github.com/janjiss/conred"
 
-  gem.add_dependency "haml", '~> 3'
+  gem.add_dependency "haml", '>= 3'
   gem.add_development_dependency "rspec", '~> 2.0'
   gem.add_development_dependency "rake", '~> 10.1'
   gem.add_development_dependency "actionpack", '~> 3'
